@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team-members",
+  "info": {
+    "singularName": "team-member",
+    "pluralName": "team-members",
+    "displayName": "Team member",
+    "description": "Create team-members for your content"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ]
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
