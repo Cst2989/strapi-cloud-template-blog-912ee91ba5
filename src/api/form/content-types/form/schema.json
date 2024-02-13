@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "forms",
+  "info": {
+    "singularName": "form",
+    "pluralName": "forms",
+    "displayName": "Form",
+    "description": "Create your blog content"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "formID": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "blocks": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media",
+        "shared.quote",
+        "shared.rich-text",
+        "shared.slider",
+        "shared.button"
+      ]
+    }
+  }
+}
