@@ -22,7 +22,10 @@
       "type": "richtext"
     },
     "university": {
-      "type": "string"
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "codes"
     },
     "cohort": {
       "type": "string"

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universities",
+  "info": {
+    "singularName": "university",
+    "pluralName": "universities",
+    "displayName": "Trial Univiersities",
+    "description": "Create trial universities"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
