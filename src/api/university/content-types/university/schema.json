@@ -18,7 +18,6 @@
     "domain": {
       "type": "string"
     },
-
     "logo": {
       "type": "media",
       "multiple": false,
@@ -26,6 +25,12 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "codes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::code.code",
+      "mappedBy": "university"
     }
   }
 }
