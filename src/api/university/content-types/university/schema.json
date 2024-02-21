@@ -18,6 +18,7 @@
     "domain": {
       "type": "string"
     },
+
     "logo": {
       "type": "media",
       "multiple": false,
