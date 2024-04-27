@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_testimonials",
+  "info": {
+    "displayName": "Testimonials Section",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "testimonials": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.testimonial"
+      ]
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "gradient"],
+      "default": "white"
+    }
+  }
+}

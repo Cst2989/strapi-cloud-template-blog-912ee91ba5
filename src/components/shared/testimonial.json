@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_testimonial",
+  "info": {
+    "displayName": "Testimonial",
+    "icon": "person"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

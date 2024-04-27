@@ -1,8 +1,8 @@
 {
-  "collectionName": "components_sections_hero",
+  "collectionName": "components_shared_box",
   "info": {
-    "displayName": "Hero Section",
-    "icon": "brush"
+    "displayName": "Box",
+    "icon": "box"
   },
   "options": {},
   "attributes": {
@@ -20,11 +20,11 @@
       "type": "media",
       "multiple": false
     },
-    "buttons": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.button"
-      ]
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
     }
   }
 }

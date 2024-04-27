@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_client",
+  "info": {
+    "displayName": "Clients Section",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "logos": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.media"
+      ]
+    }
+  }
+}

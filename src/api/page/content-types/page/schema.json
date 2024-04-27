@@ -36,11 +36,13 @@
     "sections": {
       "type": "dynamiczone",
       "components": [
-        "shared.media",
         "sections.hero",
-        "shared.rich-text",
-        "shared.slider",
-        "shared.button"
+        "sections.client",
+        "sections.cta",
+        "sections.three-box",
+        "sections.four-box",
+        "sections.text-image",
+        "sections.testimonials"
       ]
     }
   }

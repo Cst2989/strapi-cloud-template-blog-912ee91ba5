@@ -1,7 +1,7 @@
 {
-  "collectionName": "components_sections_hero",
+  "collectionName": "components_sections_text_image",
   "info": {
-    "displayName": "Hero Section",
+    "displayName": "Text Image Section",
     "icon": "brush"
   },
   "options": {},
@@ -25,6 +25,16 @@
       "components": [
         "shared.button"
       ]
+    },
+    "image_alignment": {
+      "type": "enumeration",
+      "enum": ["left", "right"],
+      "default": "left"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "gradient"],
+      "default": "white"
     }
   }
 }

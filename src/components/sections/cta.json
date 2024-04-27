@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_cta",
+  "info": {
+    "displayName": "CTA Section",
+    "icon": "plus"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "formID": {
+      "type": "string"
+    }
+  }
+}

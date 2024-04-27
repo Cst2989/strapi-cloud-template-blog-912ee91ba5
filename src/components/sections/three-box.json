@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_sections_three_box",
+  "info": {
+    "displayName": "Three Box Section",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "boxes": {
+      "type": "dynamiczone",
+      "components": [
+        "shared.box"
+      ]
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "gradient"],
+      "default": "white"
+    }
+  }
+}
