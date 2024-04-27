@@ -20,11 +20,15 @@
       "type": "media",
       "multiple": false
     },
-    "buttons": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.button"
-      ]
+    "primaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "secondaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
     }
   }
 }
