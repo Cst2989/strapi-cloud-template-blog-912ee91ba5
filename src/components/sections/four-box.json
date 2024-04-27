@@ -13,10 +13,9 @@
       "type": "string"
     },
     "boxes": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.box"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.box"
     },
     "background_color": {
       "type": "enumeration",

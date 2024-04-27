@@ -10,10 +10,9 @@
       "type": "string"
     },
     "testimonials": {
-      "type": "dynamiczone",
-      "components": [
-        "shared.testimonial"
-      ]
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.testimonial"
     },
     "background_color": {
       "type": "enumeration",
