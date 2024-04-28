@@ -22,8 +22,8 @@
     },
     "background_color": {
       "type": "enumeration",
-      "enum": ["white", "gradient"],
-      "default": "white"
+      "enum": ["green", "light-green"],
+      "default": "green"
     }
   }
 }
