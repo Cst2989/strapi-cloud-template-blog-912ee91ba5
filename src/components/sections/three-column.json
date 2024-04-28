@@ -15,9 +15,6 @@
     "secondColumnText": {
       "type": "richtext"
     },
-    "thirdColumnText": {
-      "type": "richtext"
-    },
     "primaryButton": {
       "type": "component",
       "repeatable": false,
