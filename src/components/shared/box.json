@@ -14,7 +14,13 @@
     },
     "image": {
       "allowedTypes": [
-        "images",
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "video": {
+      "allowedTypes": [
         "videos"
       ],
       "type": "media",
