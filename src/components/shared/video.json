@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_videos",
+  "info": {
+    "displayName": "Video Embed",
+    "icon": "video",
+    "description": "Embed videos from various platforms."
+  },
+  "options": {},
+  "attributes": {
+    "iframeHtml": {
+      "type": "text"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

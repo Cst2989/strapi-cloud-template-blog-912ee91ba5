@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_sections_three_column",
+  "info": {
+    "displayName": "Three Column Text Section",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "secondColumnText": {
+      "type": "richtext"
+    },
+    "thirdColumnText": {
+      "type": "richtext"
+    },
+    "primaryButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.button"
+    },
+    "background_color": {
+      "type": "enumeration",
+      "enum": ["white", "gradient"],
+      "default": "white"
+    }
+  }
+}

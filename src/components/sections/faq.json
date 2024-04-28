@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_faq",
+  "info": {
+    "displayName": "FAQ Section",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "boxes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.box"
+    }
+  }
+}

@@ -41,7 +41,9 @@
         "sections.three-box",
         "sections.four-box",
         "sections.text-image",
-        "sections.testimonials"
+        "sections.testimonials",
+        "sections.faq",
+        "sections.three-column"
       ]
     }
   }
